@@ -19,7 +19,17 @@ This project utilizes **Natural Language Processing (NLP)** for recognizing medi
 
 '''
 ## 📂 **Project Structure:**
-talking-healthcare-bot/ ├── intents.json # Medical conditions and symptom patterns data ├── main.py # Training script for building the model ├── chatbot_response.py # Predicts the response based on symptoms ├── cli_chatbot.py # Text-based chatbot interface (CLI) ├── talking_bot.py # Voice-enabled chatbot interface (speech input/output) ├── classes.pkl # Auto-generated: list of unique tags (conditions) ├── words.pkl # Auto-generated: vocabulary list ├── chatbot_model.h5 # Auto-generated: trained model file ├── training_history.pkl # Auto-generated: training history (optional) └── README.md # Project documentation (this file)
+talking-healthcare-bot/ 
+├── intents.json # Medical conditions and symptom patterns data 
+├── main.py # Training script for building the model 
+├── chatbot_response.py # Predicts the response based on symptoms 
+├── cli_chatbot.py # Text-based chatbot interface (CLI) 
+├── talking_bot.py # Voice-enabled chatbot interface (speech input/output) 
+├── classes.pkl # Auto-generated: list of unique tags (conditions) 
+├── words.pkl # Auto-generated: vocabulary list 
+├── chatbot_model.h5 # Auto-generated: trained model file 
+├── training_history.pkl # Auto-generated: training history (optional) 
+└── README.md # Project documentation (this file)
 
 '''
 
