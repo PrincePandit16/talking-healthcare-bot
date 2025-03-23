@@ -17,7 +17,8 @@ This project utilizes **Natural Language Processing (NLP)** for recognizing medi
 
 ---
 
-'''
+```
+
 ## 📂 **Project Structure:**
 talking-healthcare-bot/ 
 ├── intents.json # Medical conditions and symptom patterns data 
@@ -31,7 +32,7 @@ talking-healthcare-bot/
 ├── training_history.pkl # Auto-generated: training history (optional) 
 └── README.md # Project documentation (this file)
 
-'''
+```
 
 ## 💻 **Setup Instructions:**
 
