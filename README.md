@@ -16,7 +16,7 @@ This project utilizes **Natural Language Processing (NLP)** for recognizing medi
 - **Extendable**: You can add more symptoms and conditions to the chatbot.
 
 ---
-
+'''
 ## 📂 **Project Structure:**
 
 talking-healthcare-bot/ 
@@ -31,7 +31,7 @@ talking-healthcare-bot/
 ├── training_history.pkl 
 
 ---
-
+'''
 
 ## 💻 **Setup Instructions:**
 
