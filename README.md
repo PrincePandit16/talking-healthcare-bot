@@ -17,33 +17,39 @@ This project utilizes **Natural Language Processing (NLP)** for recognizing medi
 
 ---
 
-```
+
 ## 📂 **Project Structure:**
+```
 talking-healthcare-bot/ ├── intents.json # Medical conditions and symptom patterns data ├── main.py # Training script for building the model ├── chatbot_response.py # Predicts the response based on symptoms ├── cli_chatbot.py # Text-based chatbot interface (CLI) ├── talking_bot.py # Voice-enabled chatbot interface (speech input/output) ├── classes.pkl # Auto-generated: list of unique tags (conditions) ├── words.pkl # Auto-generated: vocabulary list ├── chatbot_model.h5 # Auto-generated: trained model file ├── training_history.pkl # Auto-generated: training history (optional) └── README.md # Project documentation (this file)
 ```
 
 ## 💻 **Setup Instructions:**
 
 ### **1. Clone the Repository**
+```bash
 git clone https://github.com/PrincePandit16/talking-healthcare-bot.git
 cd talking-healthcare-bot
-
+```
 
 ### **2. Install Required Libraries**
+```bash
 pip install nltk tensorflow speechrecognition pyttsx3 pyaudio
-
+```
 
 ### **3. Train the Model**
+```bash
 python main.py
-
+```
 
 ### **4. Run the Text Chatbot**
+```bash
 python cli_chatbot.py
-
+```
 
 ### **5. Run the Talking Bot (Voice Enabled)**
+```bash
 python talking_bot.py
-
+```
 
 ## 🤖 **How It Works:**
 1. Preprocess user sentences (tokenization + lemmatization)
